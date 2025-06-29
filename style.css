@@ -44,6 +44,10 @@ section li {
     color: white;
 }
 
+.info {
+    color: #d1b266;
+}
+
 footer {
   color : white;
   background-color: #171717;
@@ -52,10 +56,9 @@ footer {
   font-size: 0.9em;
 }
 
+
 footer h2 {
     color: #d1b266;
 }
 
-.info {
-    color: #d1b266;
-}
+
