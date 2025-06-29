@@ -6,6 +6,15 @@
   <title>Experimental</title>
   <link rel="stylesheet" href="../style.css"> 
   <link rel="icon" type="image/png" href="./src/Favicon_Sovaz.png">
+  
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+</script>
+<script src="carte.js" defer></script>
 </head>
 <body>
 
@@ -23,7 +32,15 @@
     </nav>
   </header>
    <main>
+    <!--<img src="../src/Map_St-Denis.svg" alt="map"/>-->
+    <div id="map" style="height: 400px;"></div>
 
+  <script>
+    const map = L.map('map').setView([-21.1151, 55.5364], 10);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors',
+    }).addTo(map);
+  </script>
 
   </main>
   

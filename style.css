@@ -108,3 +108,8 @@ footer h2 {
     font-style: normal;
 
 }
+
+#map {
+  width: 100%;
+  height: 400px;
+}
