@@ -1,5 +1,5 @@
 .logo-reseau {
-  width: 30px;
+  width: 80px;
   height: auto;
   margin: 0 10px;
   transition: transform 0.2s;
@@ -8,6 +8,13 @@
 .logo-reseau:hover {
   transform: scale(1.2);
 }
+.ligne-images {
+  display: flex;
+  justify-content: center;  /* centre les images horizontalement */
+  align-items: center;      /* centre verticalement si utile */
+  gap: 20px;                /* espace entre les images (optionnel) */
+}
+
 
 body {
   font-family: 'Segoe UI', sans-serif;
@@ -54,6 +61,7 @@ nav a {
 
 main {
   padding: 30px;
+  text-align: center;
 }
 
 section {
