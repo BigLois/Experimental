@@ -18,6 +18,8 @@ body {
 }
 
 header {
+  background-image: url('src/images_cite1.png');
+  background-repeat: no-repeat;
   font-family: 'fontspring_demo_-_baskervilRg';
   font-size: 20px;
   background-color: #171717;
@@ -67,6 +69,9 @@ section li {
 }
 
 footer {
+  background-image: url('src/images_cite1.png');
+  background-repeat: no-repeat;
+  background-position: right;
   color : white;
   background-color: #171717;
   text-align: center;
