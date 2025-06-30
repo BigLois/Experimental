@@ -1,6 +1,10 @@
 const imagesCartes = [
-  "../src/c1.jpg",
-  "../src/c2.jpg",
+  "../src/t1.jpg",
+  "../src/t2.jpg",
+  "../src/t3.jpg",
+  "../src/t7.jpg",
+  "../src/t5.jpg",
+  "../src/t6.jpg",
 ];
 
 function tirerCarte() {
@@ -11,8 +15,10 @@ function tirerCarte() {
 }
 
 const imagesCartes2 = [
-  "../src/c1.jpg",
-  "../src/c2.jpg",
+  "../src/i1.jpg",
+  "../src/i2.jpg",
+  "../src/i3.jpg",
+  "../src/i4.jpg",
 ];
 
 function tirerCarte2() {
