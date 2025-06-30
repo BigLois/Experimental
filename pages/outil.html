@@ -25,17 +25,25 @@
    <main>
     <body>
       
+      <script src="../js/script.js"></script>
+      
       <div class="regle">
         <img src="../src/règles.jpg"/>
       </div>
       <h1>🎴 Tirage de Carte</h1>
-  <div class="carte-container">
-    <img id="carte" src="" alt="Carte tirée" style="display:none;">
+  <div class="game">
+    <div class="carte-container">
+      <img id="carte" src="" alt="Carte tirée" style="display:none;">
+    </div>
+    <div class="carte-container2">
+      <img id="carte2" src="" alt="Carte tirée" style="display:none;">
+    </div>
+  </div>
+  <div class="button">
+  <button onclick="tirerCarte()">Tirer une carte</button>
+  <button onclick="tirerCarte2()">Tirer une carte</button>
   </div>
 
-  <button onclick="tirerCarte()">Tirer une carte</button>
-
-  <script src="../js/script.js"></script>
 </body>
 
   </main>
