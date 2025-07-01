@@ -21,7 +21,7 @@ const lieux = [
     nom: "Cité des Arts",
     lat: -20.885157,
     lng: 55.468768,
-    icon: "https://cdn-icons-png.flaticon.com/128/3749/3749704.png",
+    icon: "../src/m2.png",
     image: "../src/images_cite2.jpg",
     description: "« Titan pierre et univers »<br>- 2016, façade Est<br>Cité des Arts"
   },
@@ -29,7 +29,7 @@ const lieux = [
     nom: "Bas de la Rivière",
     lat: -20.876095,
     lng: 55.444895,
-    icon: "https://cdn-icons-png.flaticon.com/128/9760/9760647.png",
+    icon: "../src/m5.png",
     image: "../src/5.jpg",
     description: "« Géant univers »<br>- 2013, rue de la Boulangerie,<br>Bas de la Rivière"
   },
@@ -37,7 +37,7 @@ const lieux = [
     nom: "Camélia",
     lat: -20.893657,
     lng: 55.463124,
-    icon: "https://cdn-icons-png.flaticon.com/128/15238/15238871.png",
+    icon: "../src/m7.png",
     image: "../src/3.jpg",
     description: "« Titan pierre et univers »<br>- 2017, SHLMR, Le Butor"
   },
@@ -45,7 +45,7 @@ const lieux = [
     nom: "Parking du grand marché",
     lat: -20.880917,
     lng: 55.447848,
-    icon: "https://cdn-icons-png.flaticon.com/128/3420/3420275.png",
+    icon: "../src/m6.png",
     image: "../src/4.jpg",
     description: "L’Île lumière noire<br>2022"
   }
